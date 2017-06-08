@@ -1,0 +1,255 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  height: 1080px;
+  width: 100%;
+  /*min-width: 1024px;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  // background-attachment: scroll;
+  margin: 0;
+  border: 0;
+  /*opacity: 0.7;*/
+    /*background: url("./office_1.jpeg");*/
+  background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("./office_1.jpeg");
+  background-attachment: fixed;
+}
+
+.onextra-container {
+  width: 75%;
+  height: 500px;
+  padding-top: 20vh;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.onextra-items {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.onextra-logo {
+  // width: auto;
+  height: 200px;
+  margin: auto;
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  position: relative;
+}
+
+.logo {
+  width: 75%;
+  margin: auto;
+  text-decoration: none;
+  display: inline-block;
+  // background-color: white;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+.onextra-title {
+  width: 100%;
+  margin: auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px slategray;
+}
+
+.onextra-description {
+  width: 100%;
+  margin: auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 2px;
+  padding-top: 3px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px #708090;
+}
+
+.about-us-home-container {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 350px;
+}
+
+.about-us-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.about-us-icons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.about-logo-sub {
+  width: 135px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.about-logo-cc {
+  width: 115px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.about-logo-video {
+  width: 100px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.about-us-text-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.about-us {
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+  // color: #708090;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 1.5em;
+}
+
+.our-clients-container {
+  width: 100%;
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.our-clients-logos {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 205px;
+}
+
+.client-logo-bell {
+  width: 160px;
+  margin-top: -15px;
+}
+
+.client-logo-corus {
+  width: 160px;
+}
+
+.client-logo-shaw {
+  width: 150px;
+}
+
+.client-logo-vice {
+  width: 160px;
+}
+//
+// .client-logo-octo {
+//   width: 150px;
+// }
+
+.social-media-contact-items {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+h1.social-media-contact-title {
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  color: white;
+  font-size: 55px;
+  font-weight: 900;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.social-media-container {
+  width: 100%;
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 175px;
+}
+
+.social-media-logo-container {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.social-media-logo {
+  width: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}

@@ -1,0 +1,218 @@
+// Place all the styles related to the CC controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.site-header-cc {
+  // height: 1080px;
+  width: 100%;
+  /*min-width: 1024px;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  // background-attachment: scroll;
+  margin: 0;
+  border: 0;
+  /*opacity: 0.7;*/
+    /*background: url("./office_1.jpeg");*/
+  background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("./typing.jpeg");
+  background-attachment: fixed;
+  z-index: -100;
+}
+
+.cc-info-container {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  justify-content: center;
+  display: inline-block;
+  margin-top: 85px;
+}
+
+.cc-info-elements {
+  width: 85%;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1.cc-info-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 100px;
+  color: white;
+}
+
+.cc-icon-container {
+  margin-top: 30px;
+}
+
+.cc-info-icon {
+  width: 125px;
+}
+
+.cc-info-text-container {
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+p.cc-info-text {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 35px;
+  // color: #8393a1;
+  color: white;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 1.1em;
+}
+
+// SUBS CONTAINER STARTS HERE
+
+.subs-info-container {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  justify-content: center;
+  display: inline-block;
+  margin-top: 250px;
+}
+
+.subs-info-elements {
+  width: 85%;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1.subs-info-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 100px;
+  color: white;
+}
+
+.subs-icon-container {
+  margin-top: 30px;
+}
+
+.subs-info-icon {
+  width: 125px;
+}
+
+.subs-info-text-container {
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+p.subs-info-text {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 35px;
+  // color: #8393a1;
+  color: white;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 1.1em;
+}
+
+// PAGE BREAK
+
+.standards-container {
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 450px;
+}
+
+.standards-elements {
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.standards-info {
+  width: 350px;
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin: 20px;
+  padding: 15px;
+}
+
+h2.standards-title {
+  text-align: center;
+  // color: #8393a1;
+  color: white;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.standards-icon {
+  width: 100px;
+  margin: 5px;
+}
+
+.standards-icon.subs {
+  margin: 15px;
+}
+
+.standards-text {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  // color: #8393a1;
+  color: white;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 0.9em;
+}
+
+// ALTERNATIVE PAGE
+.cc-info-container-v2 {
+  width: 50%;
+  position: fixed;
+  margin: auto;
+  height: 400px;
+  justify-content: center;
+  display: inline-block;
+  margin-top: 85px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <%= favicon_link_tag 'onextra_favicon.ico' %>
+  <head>
+    <title>ONEXTRA</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="nav-bar">
+      <div class="nav-container">
+        <div class="nav-menu">
+          <a href="/" class="nav-logo-container">
+            <img src="./assets/onextra_short_logo.png" class="onextra-nav-logo">
+          </a>
+          <%= link_to "Closed Captioning | Subtitling", 'cc#index', class: "nav-items" %>
+          <%= link_to "DV | LIVE DV", 'dv#index', class: "nav-items" %>
+          <%= link_to "Real-Time Captioning", 'real_cap#index', class: "nav-items" %>
+          <%= link_to "Digital Media Services", 'dmservices#index', class: "nav-items" %>
+          <%= link_to "Contact", "/#contact-me-link-target", class: "nav-items" %>
+        </div>
+      </div>
+    </div>
+    <div class="angle-down arrow">⌄
+      <!-- <img src="./assets/icons/down_arrow.png" class="down_arrow"> -->
+    </div>
+
+
+    <%= yield %>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <!-- <div class="wrapper">
+
+
+
+      <div class="push"></div>
+    </div> -->
+    <footer class="footer">&copy; Onextra 2017</footer>
+
+  </body>
+
+  <!-- <footer>
+    &copy; Onextra 2017
+  </footer> -->
+
+</html>
